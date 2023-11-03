@@ -29,6 +29,11 @@ Options are:
 -c --cine    : Enable cinematic data output.
 -h -? --help : Help menu
 
+To convert a whole folder of files, copy the `muldemu.exe` to somewhere in
+your PATH, then in a terminal switch to the folder with the .mul files
+and type this:
+
+for %i in (*.mul) do muldemu.exe %i
 
 Thanks to:
 DarkFader (http://www.darkfader.net/misc)
